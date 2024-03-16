@@ -1,0 +1,220 @@
+html{
+    background-color: rgb(248, 247, 242);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: url("imgs/pass-gen-bg.webp") top 50px center no-repeat #f6f7f7;
+    background-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
+body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top:20px;
+
+}
+
+.middle_box{
+    margin: 30px;
+    width: 100%;    
+}
+
+div{
+    max-width: 910px;
+}
+
+.middle_output{
+    transform: translateX(30px);
+}
+
+.titles h1{
+    margin: 0;
+    font-size: 40px
+}
+
+.titles p{
+    margin-top: 3px;
+}
+
+.middle_box form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.end_int{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px 150px;
+}
+.end p{
+    text-align: center;
+}
+.password {
+    margin: 20px;
+}
+
+.password_output{
+    background-color: rgb(89, 169, 89);
+    width: 600px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.password{
+    color: white;
+    font-weight: 400;
+}
+
+.password_output .btn_redo{
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    transform: translateX(270px);
+    position: absolute;
+
+}
+
+.copy_btn{
+    outline: none;
+    cursor: pointer;
+    border: solid 1px rgb(198, 198, 198);
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: white;
+    font-size: 18px;
+}
+
+
+.msg_copy{
+    visibility: hidden;
+    transform: translate(-115px, -60px);
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 5px;
+    height: 30px;
+    opacity: 0.7;
+    font-size: 10px;
+}
+
+
+.btnCopy:hover .msg_copy{
+    visibility: visible;
+
+}
+
+
+.middle_box form input{
+    outline: none;
+    width: 40px;
+    height: 59px;
+    padding: 0px 5px 0px 10px;
+    background-color: white;
+    border: solid 1px rgb(198, 198, 198);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.setting label{
+    margin: 0px 20px 0px 10px;
+}
+
+.setting input{
+    cursor: pointer;
+}
+
+.end button{
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ent_btn{
+    padding: 17px 20px;
+    background-color: rgb(89, 169, 89);
+    border: none;
+    color: white;
+    transition: ease 0.3s;
+}
+
+.ent_btn:hover{
+    background-color: rgb(68, 137, 68);
+}
+.pers_btn{
+    height: 52px;
+    padding: 16px 20px;
+    border: solid 2px rgb(161, 161, 161);
+    color: black;
+    transition: ease 0.3s;
+    margin-left:10px;
+}
+
+.pers_btn:hover{
+    border: solid 2px rgb(89, 169, 89);
+}
+
+.btnViewMore{
+    display: flex;
+}
+
+.btnViewMore div p {
+    margin-top: 5px;
+    transform: translateX(-35px);
+    font-size: 12px;
+}
+
+body{
+    padding: 20px;
+}
